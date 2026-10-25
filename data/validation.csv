@@ -1,0 +1,27 @@
+case,policy,simulator,reference_code,textbook,ok
+Textbook (Silberschatz) F=3,FIFO,15,15,15,True
+Textbook (Silberschatz) F=3,LRU,12,12,12,True
+Textbook (Silberschatz) F=3,OPT,9,9,9,True
+Textbook (Silberschatz) F=3,Clock,14,14,,True
+Textbook (Silberschatz) F=3,LFU,11,11,,True
+Belady anomaly F=3,FIFO,9,9,9,True
+Belady anomaly F=3,LRU,10,10,,True
+Belady anomaly F=3,OPT,7,7,,True
+Belady anomaly F=3,Clock,9,9,,True
+Belady anomaly F=3,LFU,10,10,,True
+Belady anomaly F=4,FIFO,10,10,10,True
+Belady anomaly F=4,LRU,8,8,,True
+Belady anomaly F=4,OPT,6,6,,True
+Belady anomaly F=4,Clock,10,10,,True
+Belady anomaly F=4,LFU,8,8,,True
+"Cyclic 1..4 x5, F=3",FIFO,20,20,20,True
+"Cyclic 1..4 x5, F=3",LRU,20,20,20,True
+"Cyclic 1..4 x5, F=3",OPT,9,9,,True
+"Cyclic 1..4 x5, F=3",Clock,20,20,,True
+"Cyclic 1..4 x5, F=3",LFU,20,20,,True
+500 random traces vs naive reference,FIFO,500,500,,True
+500 random traces vs naive reference,LRU,500,500,,True
+500 random traces vs naive reference,OPT,500,500,,True
+500 random traces vs naive reference,Clock,500,500,,True
+500 random traces vs naive reference,LFU,500,500,,True
+OPT lower-bound check (200 traces),all,0,0,,True

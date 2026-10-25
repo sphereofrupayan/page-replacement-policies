@@ -1,0 +1,52 @@
+{
+  "points": {
+    "S": {
+      "N": 20000,
+      "F": 64,
+      "P": 800
+    },
+    "M": {
+      "N": 60000,
+      "F": 128,
+      "P": 1600
+    },
+    "L": {
+      "N": 150000,
+      "F": 256,
+      "P": 3200
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "workloads": [
+    "Scan",
+    "Loop",
+    "Temporal",
+    "Zipf",
+    "Uniform",
+    "Mixed"
+  ],
+  "adaptive_params": {
+    "w_mult": 4,
+    "seq_thr": 0.45,
+    "reuse_thr": 0.1,
+    "rec_thr": 0.55,
+    "age": "none"
+  },
+  "tuning_seeds": [
+    100,
+    101,
+    102,
+    103
+  ]
+}
